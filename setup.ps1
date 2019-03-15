@@ -20,7 +20,8 @@ choco install microsoft-teams -y
 choco install poshgit -y
 choco install whatsapp -y
 choco install spotify -y
-chocp install lightshot -y
+choco install lightshot -y
+choco install azure-cli -y
 
 
 dism /online /get-features | more 
