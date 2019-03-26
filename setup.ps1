@@ -22,6 +22,7 @@ choco install whatsapp -y
 choco install spotify -y
 choco install lightshot -y
 choco install azure-cli -y
+choco install azure-data-studio -y
 
 
 dism /online /get-features | more 
@@ -33,3 +34,6 @@ Dism /online /enable-feature /featurename:IIS-BasicAuthentication /All /Source:D
 Dism /online /enable-feature /featurename:IIS-WindowsAuthentication /All /Source:D:\sources\sxs /LimitAccess
 Dism /online /enable-feature /featurename:Containers /All /Source:D:\sources\sxs /LimitAccess
 Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /All /Source:D:\sources\sxs /LimitAccess
+
+
+az extension add --name azure-devops
