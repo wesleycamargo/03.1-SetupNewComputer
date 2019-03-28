@@ -23,6 +23,7 @@ choco install spotify -y
 choco install lightshot -y
 choco install azure-cli -y
 choco install azure-data-studio -y
+choco install rdcman -y
 
 
 dism /online /get-features | more 
