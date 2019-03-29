@@ -24,6 +24,7 @@ choco install lightshot -y
 choco install azure-cli -y
 choco install azure-data-studio -y
 choco install rdcman -y
+choco install powerbi -y
 
 
 dism /online /get-features | more 
