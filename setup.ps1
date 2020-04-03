@@ -1,9 +1,12 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
+#Basic
+choco install visualstudiocode -y
+choco install googlechrome -y
+
 #Dev Tools
 choco install git -y
 choco install gitextensions -y
-choco install visualstudiocode -y
 
 ## uncomment following lines to change VS Version
 #choco install visualstudio2019professional -y
@@ -27,7 +30,6 @@ choco install microsoft-teams -y
 #choco install office365proplus -y
 
 #Personal Stuff
-choco install googlechrome -y
 choco install googledrive -y
 choco install whatsapp -y
 choco install spotify -y
