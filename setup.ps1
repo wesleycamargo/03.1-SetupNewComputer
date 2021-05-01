@@ -23,25 +23,21 @@ choco install fiddler4 -y
 
 #Work tools
 choco install microsoft-teams -y
-choco install lightshot -y
+choco install screenpresso -y
 choco install powerbi -y
 choco install zoomit -y
-choco install microsoft-teams -y
-#choco install office365proplus -y
 
 #Personal Stuff
-choco install googledrive -y
-choco install whatsapp -y
 choco install spotify -y
-choco install skype -y
 choco install winrar -y
-#choco install origin -y ##Instal EA Origin downloader
 
+# Tools Configuration
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 #Environment Stuff
 
 dism /online /get-features | more 
- 
+
 Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
 Dism /online /enable-feature /featurename:IIS-ASPNET /All /Source:D:\sources\sxs /LimitAccess
 Dism /online /enable-feature /featurename:IIS-ASPNET45 /All /Source:D:\sources\sxs /LimitAccess
